@@ -1,0 +1,6 @@
+fastapi==0.111.0
+uvicorn==0.30.1
+langgraph==0.0.13
+langchain-core==0.1.23
+fastmcp==0.2.0
+python-multipart==0.0.9

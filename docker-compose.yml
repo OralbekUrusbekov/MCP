@@ -1,0 +1,9 @@
+services:
+  agent:
+    build: .
+    container_name: ai-product-agent
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./mcp_server/products.json:/app/mcp_server/products.json
+      - ./data:/app/data
